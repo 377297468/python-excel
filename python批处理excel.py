@@ -1,6 +1,7 @@
 import xlrd 
 import matplotlib.pyplot as plt  
 import sys
+"""本程序目的是统计EXCEL中每个工作表中的B7单元格的数据，并进行数据清理，最后绘制成柱状图"""
 """打开文件"""
 xlsx=xlrd.open_workbook("data.xlsx");
 """获取所有工作表"""
